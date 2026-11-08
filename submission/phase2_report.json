@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 255.524,
+    "vectorized_ms": 1.077,
+    "speedup": 237.26
+  },
+  "threads": {
+    "1": 2639.395,
+    "2": 2005.675,
+    "4": 2070.487,
+    "8": 2477.889
+  },
+  "devices": {
+    "cpu_ms": 436562.9,
+    "gpu_ms": 13552.4
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.5041,
+    "param_count": 4935680
+  },
+  "sample": "\nDo my crities sweathing to sthough of Lord;\nHow quarens you to have lawdy I.\n\nISABELLA:\nTill not will on in your hast grace:\nAnd heath and a tuzend and lovest were spedice to'spose.\n\nMord Senathior:\nI",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/eurecom-gpt-val-eurecomgpt/model.safetensors"
+  }
+}
